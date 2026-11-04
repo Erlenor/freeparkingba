@@ -33,13 +33,14 @@ jobs:
         run: python scripts/fetch_data.py
 
       - name: Uložiť dáta do repozitára
+        continue-on-error: true
         run: |
           git config user.name "freeparkingba-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data
           if ! git diff --cached --quiet; then
             git commit -m "Aktualizácia dát"
-            git push
+            for i in 1 2 3; do git pull --rebase -q && git push && break; sleep 10; done
           fi
 
       - uses: actions/configure-pages@v5
