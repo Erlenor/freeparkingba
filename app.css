@@ -1,0 +1,26 @@
+.layers{position:absolute;left:max(12px,env(safe-area-inset-left,0px));top:12px;z-index:900;background:var(--surface);border:1px solid var(--line);border-radius:12px;box-shadow:var(--shadow);font-size:13px;min-width:220px}
+.layers-head{display:block;width:100%;text-align:left;border:0;background:none;padding:10px 12px;font-family:var(--f-display);font-weight:800;font-stretch:90%;font-size:14px;text-transform:uppercase;letter-spacing:.08em}
+.layers-head::after{content:"▾";float:right;color:var(--muted)}
+.layers-head[aria-expanded="false"]::after{content:"▸"}
+.layers-body{display:grid;gap:6px;padding:0 12px 12px}
+.layers-body label{display:flex;align-items:center;gap:8px;cursor:pointer}
+.layers-body input{accent-color:var(--pr);margin:0}
+.seg{display:grid;grid-template-columns:1fr 1fr;border:1px solid var(--line);border-radius:9px;overflow:hidden;margin-bottom:4px}
+.seg button{border:0;background:var(--surface-2);padding:7px;font-weight:700}
+.seg button[aria-pressed="true"]{background:var(--fg);color:var(--bg)}
+.sq.rez{background:var(--paas);opacity:.35;border:1px solid var(--paas)}
+.legend{display:none}
+#map:not(.lbl-zones) .leaflet-tooltip.zone-code{display:none}
+#map:not(.lbl-areas) .leaflet-tooltip.area{display:none}
+.leaflet-tooltip.zone-code{background:#cf3434;color:#fff;border:0;font:700 12px/1.1 var(--f-mono);padding:3px 7px;border-radius:6px}
+.leaflet-tooltip.zone-code.plan{background:#b06d0c}
+.leaflet-tooltip.area{background:rgba(255,255,255,.9);color:#16202a;border:1px solid #cf3434;font:600 10px/1.2 var(--f-mono);padding:1px 4px}
+.leaflet-popup-content{font-family:var(--f-body);font-size:13px;line-height:1.4;margin:10px 12px}
+.leaflet-popup-content b{font-family:var(--f-display);font-size:15px}
+.leaflet-popup-content a{color:var(--oc)}
+.pop-src{color:#5a6672;font-size:11px;margin-top:4px}
+.zonebadge{font-family:var(--f-mono);font-weight:600}
+@media (max-width:760px){.layers{min-width:0}.layers-body{font-size:12px}}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:6px 11px;font-size:13px;font-weight:700;font-family:var(--f-mono)}
+.chip:hover{background:var(--fg);color:var(--bg)}

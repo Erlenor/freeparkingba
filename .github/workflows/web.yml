@@ -1,0 +1,52 @@
+name: Dáta a web
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "17 2 * * *"   # každú noc o 3:17 / 4:17 bratislavského času
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Stiahnuť aktuálne dáta
+        run: python scripts/fetch_data.py
+
+      - name: Uložiť dáta do repozitára
+        run: |
+          git config user.name "freeparkingba-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          if ! git diff --cached --quiet; then
+            git commit -m "Aktualizácia dát"
+            git push
+          fi
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+
+      - id: deploy
+        uses: actions/deploy-pages@v4
