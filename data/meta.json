@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T09:50:14+00:00",
+ "updated": "2026-11-10T09:54:03+00:00",
  "sources": {
   "zony": {
    "url": "https://services8.arcgis.com/pRlN1m0su5BYaFAS/arcgis/rest/services/ZONY/FeatureServer",
@@ -12,7 +12,7 @@
      "count": 36
     }
    ],
-   "fetched": "2026-11-09T09:50:14+00:00"
+   "fetched": "2026-11-10T09:54:03+00:00"
   },
   "rezidentske": {
    "url": "https://services8.arcgis.com/pRlN1m0su5BYaFAS/arcgis/rest/services/Rezidentske_parkovanie/FeatureServer",
@@ -25,7 +25,7 @@
      "count": 71
     }
    ],
-   "fetched": "2026-11-09T09:50:14+00:00"
+   "fetched": "2026-11-10T09:54:03+00:00"
   },
   "plan_zon": {
    "url": "https://services8.arcgis.com/pRlN1m0su5BYaFAS/arcgis/rest/services/Pl%C3%A1n_Z%C3%B3n/FeatureServer",
@@ -38,7 +38,7 @@
      "count": 36
     }
    ],
-   "fetched": "2026-11-09T09:50:14+00:00"
+   "fetched": "2026-11-10T09:54:03+00:00"
   },
   "petrzalka": {
    "url": "https://services-eu1.arcgis.com/gfD2sIpeuhWr0Ulz/ArcGIS/rest/services/Vyhraden%C3%A9_parkovanie_zony/FeatureServer",
@@ -51,13 +51,13 @@
      "count": 40
     }
    ],
-   "fetched": "2026-11-09T09:50:14+00:00"
+   "fetched": "2026-11-10T09:54:03+00:00"
   },
   "osm": {
    "url": "https://www.openstreetmap.org",
    "ok": true,
-   "count": 77,
-   "fetched": "2026-11-09T09:50:14+00:00"
+   "count": 76,
+   "fetched": "2026-11-10T09:54:03+00:00"
   }
  },
  "city_services": [
@@ -449,9 +449,9 @@
   "Pocet_obyvatelov_budovy",
   "Pocet_obyvatelov_podla_materinskeho_jazyka_SODB_2011",
   "Pocet_obyvatelov_v_mestskych_castiach_Bratislavy_v_roku_2035",
-  "Podiel_detí_v_materských_školách_v_Bratislave_dochádzajúcich_z_mimobratislavských_okresov",
+  "Podiel_detí_v_materských_školách_v_BA_dochádzajúcich_z_mimobratislavských_okresov_2021",
   "Podiel_jednotlivých_odvetví_na_tržbách_v_priemysle_Bratislavy_v_rokoch_2008___2021",
-  "Podiel_materských_skôl_podľa_zriaďovateľa_v_Bratislave_za_obdobie_2010_–_2022",
+  "Podiel_materských_škôl_podľa_zriaďovateľa_v_Bratislave_za_obdobie_2010_–_2022",
   "Podiel_nákladov_BVS",
   "Podiel_obyvateľov_v_Bratislave",
   "Podiel_odpadových_vôd_BVS_podľa_segmentov",
@@ -477,7 +477,7 @@
   "Podiel_zamestnanosti_v_kultúre_na_celkovej_zamestnanosti_vybraných_regiónoch_NUTS2",
   "Podiel_základných_škôl_podľa_zriaďovateľa_v_Bratislave_za_obdobie_2010_–_2022",
   "Podiel_zásobovania_pitnou_vodou_BVS_podľa_segmentov",
-  "Podiel_žiakov_v_základných_školách_v_Bratislave_dochádzajúcich_z_mimobratislavských_okr",
+  "Podiel_žiakov_v_základných_školách_v_BA_dochádzajúcich_z_mimobratislavských_okresov_2021",
   "Podkladové_dáta",
   "Podkladové_mapy1",
   "Podkladové_mapy2",
