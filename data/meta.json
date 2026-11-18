@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T10:46:03+00:00",
+ "updated": "2026-11-18T10:12:43+00:00",
  "sources": {
   "zony": {
    "url": "https://services8.arcgis.com/pRlN1m0su5BYaFAS/arcgis/rest/services/ZONY/FeatureServer",
@@ -12,7 +12,7 @@
      "count": 36
     }
    ],
-   "fetched": "2026-11-17T10:46:03+00:00"
+   "fetched": "2026-11-18T10:12:43+00:00"
   },
   "rezidentske": {
    "url": "https://services8.arcgis.com/pRlN1m0su5BYaFAS/arcgis/rest/services/Rezidentske_parkovanie/FeatureServer",
@@ -25,7 +25,7 @@
      "count": 71
     }
    ],
-   "fetched": "2026-11-17T10:46:03+00:00"
+   "fetched": "2026-11-18T10:12:43+00:00"
   },
   "plan_zon": {
    "url": "https://services8.arcgis.com/pRlN1m0su5BYaFAS/arcgis/rest/services/Pl%C3%A1n_Z%C3%B3n/FeatureServer",
@@ -38,7 +38,7 @@
      "count": 36
     }
    ],
-   "fetched": "2026-11-17T10:46:03+00:00"
+   "fetched": "2026-11-18T10:12:43+00:00"
   },
   "petrzalka": {
    "url": "https://services-eu1.arcgis.com/gfD2sIpeuhWr0Ulz/ArcGIS/rest/services/Vyhraden%C3%A9_parkovanie_zony/FeatureServer",
@@ -51,13 +51,13 @@
      "count": 40
     }
    ],
-   "fetched": "2026-11-17T10:46:03+00:00"
+   "fetched": "2026-11-18T10:12:43+00:00"
   },
   "osm": {
    "url": "https://www.openstreetmap.org",
    "ok": true,
    "count": 76,
-   "fetched": "2026-11-17T10:46:03+00:00"
+   "fetched": "2026-11-18T10:12:43+00:00"
   }
  },
  "city_services": [
@@ -544,7 +544,6 @@
   "Počet stíhaných a vyšetrovaných mladých podľa vzdelania",
   "Počet stíhaných a vyšetrovaných osôb",
   "Počet súčasne pripojených užívateľov na Free Wifi VisitBratislav",
-  "Počet trestných činov a počet stíhaných a vyšetrovaných mladistvých a maloletých osôb",
   "Počet trestných činov a počet stíhaných a vyšetrovaných osôb",
   "Počet trestných činov spáchaných organizovanou formou",
   "Počet uchádzačov o zamestnanie (absolventi) podľa počtu mesiacov v evidencii UPS",
