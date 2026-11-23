@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T09:48:51+00:00",
+ "updated": "2026-11-23T10:49:17+00:00",
  "sources": {
   "zony": {
    "url": "https://services8.arcgis.com/pRlN1m0su5BYaFAS/arcgis/rest/services/ZONY/FeatureServer",
@@ -12,7 +12,7 @@
      "count": 36
     }
    ],
-   "fetched": "2026-11-22T09:48:51+00:00"
+   "fetched": "2026-11-23T10:49:17+00:00"
   },
   "rezidentske": {
    "url": "https://services8.arcgis.com/pRlN1m0su5BYaFAS/arcgis/rest/services/Rezidentske_parkovanie/FeatureServer",
@@ -25,7 +25,7 @@
      "count": 71
     }
    ],
-   "fetched": "2026-11-22T09:48:51+00:00"
+   "fetched": "2026-11-23T10:49:17+00:00"
   },
   "plan_zon": {
    "url": "https://services8.arcgis.com/pRlN1m0su5BYaFAS/arcgis/rest/services/Pl%C3%A1n_Z%C3%B3n/FeatureServer",
@@ -38,7 +38,7 @@
      "count": 36
     }
    ],
-   "fetched": "2026-11-22T09:48:51+00:00"
+   "fetched": "2026-11-23T10:49:17+00:00"
   },
   "petrzalka": {
    "url": "https://services-eu1.arcgis.com/gfD2sIpeuhWr0Ulz/ArcGIS/rest/services/Vyhraden%C3%A9_parkovanie_zony/FeatureServer",
@@ -51,13 +51,13 @@
      "count": 40
     }
    ],
-   "fetched": "2026-11-22T09:48:51+00:00"
+   "fetched": "2026-11-23T10:49:17+00:00"
   },
   "osm": {
    "url": "https://www.openstreetmap.org",
    "ok": true,
    "count": 76,
-   "fetched": "2026-11-22T09:48:51+00:00"
+   "fetched": "2026-11-23T10:49:17+00:00"
   }
  },
  "city_services": [
@@ -1068,6 +1068,7 @@
   "kupaliska_a_vody_na_kupanie",
   "kupaliska_vody_na_kupanie_dostupnost",
   "kupanie_200grid_N",
+  "kvetinace_pasportizacia_pohľad",
   "les_op_lesa",
   "meranie_kataster_pohľad",
   "mhd_obsluznost_sumwithin200",
@@ -1199,7 +1200,6 @@
   "Štandardizované_miery_úmrtnosti_mužov_na_vybrané_hlavné_skupiny_príčin_smrti_v_Bratislave",
   "Štandardizované_miery_úmrtnosti_žien_na_vybrané_hlavné_skupiny_príčin_smrti_na_Slovensku",
   "Štandardizované_miery_úmrtnosti_žien_na_vybrané_hlavné_skupiny_príčin_smrti_v_Bratislave",
-  "Štatistický prehľad priestupkov na úseku občianskych preukazov",
   "Štruktúra_alokácie_priamych_zahraničných_investícií_podľa_odvetví_na_Slovensku",
   "Štruktúra_ambulantných_sociálnych_služieb_v_BSK_(2021)",
   "Štruktúra_detí_v_materských_školách_podľa_zriaďovateľa_v_Bratislave",
